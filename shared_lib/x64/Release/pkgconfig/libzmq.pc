@@ -1,0 +1,12 @@
+prefix=D:/Jenkins/workspace/oss.zmq/private/generated/build_tmp/win-msvc-x64/release
+exec_prefix=D:/Jenkins/workspace/oss.zmq/private/generated/build_tmp/win-msvc-x64/release
+libdir=D:/Jenkins/workspace/oss.zmq/private/generated/build_tmp/win-msvc-x64/release/lib
+includedir=D:/Jenkins/workspace/oss.zmq/private/generated/build_tmp/win-msvc-x64/release/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 

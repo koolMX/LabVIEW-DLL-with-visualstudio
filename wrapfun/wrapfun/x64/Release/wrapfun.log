@@ -1,0 +1,18 @@
+﻿  pch.cpp
+  wrapfun.cpp
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(33,27): warning C4251: 'SharedLib::_output': class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\iosfwd(241,35): message : see declaration of 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(35,35): warning C4251: 'SharedLib::_result': struct 'comm::datalayer::DlResult' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer_defs.h(14,8): message : see declaration of 'comm::datalayer::DlResult'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(36,34): warning C4251: 'SharedLib::_data': class 'comm::datalayer::Variant' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer.h(47,7): message : see declaration of 'comm::datalayer::Variant'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(37,42): warning C4251: 'SharedLib::_datalayerSystem': class 'comm::datalayer::DatalayerSystem' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer_system.h(34,7): message : see declaration of 'comm::datalayer::DatalayerSystem'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(38): warning C4114: same type qualifier used more than once
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(38,18): warning C4114: same type qualifier used more than once
+     Creating library C:\Users\MAK1FC\source\repos\wrapfun\x64\Release\wrapfun.lib and object C:\Users\MAK1FC\source\repos\wrapfun\x64\Release\wrapfun.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 197 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  wrapfun.vcxproj -> C:\Users\MAK1FC\source\repos\wrapfun\x64\Release\wrapfun.dll

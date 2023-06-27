@@ -1,0 +1,33 @@
+﻿  pch.cpp
+  dllmain.cpp
+  shared_lib.cpp
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(33,27): warning C4251: 'SharedLib::_output': class 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\iosfwd(241,35): message : see declaration of 'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(35,35): warning C4251: 'SharedLib::_result': struct 'comm::datalayer::DlResult' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer_defs.h(14,8): message : see declaration of 'comm::datalayer::DlResult'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(36,34): warning C4251: 'SharedLib::_data': class 'comm::datalayer::Variant' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer.h(47,7): message : see declaration of 'comm::datalayer::Variant'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(37,42): warning C4251: 'SharedLib::_datalayerSystem': class 'comm::datalayer::DatalayerSystem' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer_system.h(34,7): message : see declaration of 'comm::datalayer::DatalayerSystem'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(38): warning C4114: same type qualifier used more than once
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(38,18): warning C4114: same type qualifier used more than once
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(11,54): warning C4114: same type qualifier used more than once
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(11,76): warning C4114: same type qualifier used more than once
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(11,38): warning C4273: 'SharedLib::SharedLib': inconsistent dll linkage
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(38,9): message : see previous definition of '{ctor}'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(20,39): warning C4273: 'SharedLib::~SharedLib': inconsistent dll linkage
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(47,10): message : see previous definition of '{dtor}'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(25,28): warning C4273: 'SharedLib::getConnectionString': inconsistent dll linkage
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(40,21): message : see previous definition of 'getConnectionString'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(38,42): warning C4273: 'SharedLib::Connectclient': inconsistent dll linkage
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(42,35): message : see previous definition of 'Connectclient'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(57,28): warning C4273: 'SharedLib::Readclient': inconsistent dll linkage
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(44,21): message : see previous definition of 'Readclient'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.cpp(76,21): warning C4273: 'SharedLib::Deleteclient': inconsistent dll linkage
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(46,14): message : see previous definition of 'Deleteclient'
+     Creating library C:\Users\MAK1FC\source\repos\shared_lib\x64\Release\shared_lib.lib and object C:\Users\MAK1FC\source\repos\shared_lib\x64\Release\shared_lib.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 317 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  shared_lib.vcxproj -> C:\Users\MAK1FC\source\repos\shared_lib\x64\Release\shared_lib.dll

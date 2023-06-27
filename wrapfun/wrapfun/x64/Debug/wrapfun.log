@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(31,35): warning C4251: 'SharedLib::_result': struct 'comm::datalayer::DlResult' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer_defs.h(14,8): message : see declaration of 'comm::datalayer::DlResult'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(32,34): warning C4251: 'SharedLib::_data': class 'comm::datalayer::Variant' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer.h(47,7): message : see declaration of 'comm::datalayer::Variant'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(33,42): warning C4251: 'SharedLib::_datalayerSystem': class 'comm::datalayer::DatalayerSystem' needs to have dll-interface to be used by clients of class 'SharedLib'
+C:\Users\MAK1FC\Documents\ctrlx-automation-sdk\include\comm.datalayer\comm\datalayer\datalayer_system.h(34,7): message : see declaration of 'comm::datalayer::DatalayerSystem'
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(34): warning C4114: same type qualifier used more than once
+C:\Users\MAK1FC\source\repos\shared_lib\shared_lib\shared_lib.h(34,18): warning C4114: same type qualifier used more than once
+C:\Users\MAK1FC\source\repos\wrapfun\wrapfun\dllmain.cpp(24,5): error C2143: syntax error: missing ';' before '}'
